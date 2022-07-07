@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="patrick amusivwa">
+    <meta name="description" content="little taco shop for contacts">
+    <title>contact us</title>
+    <link rel="icon" href="taco_logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>contact us</h1>
+        <nav aria-labelledby="nav">
+            <h2 id="nav">navigation</h2>
+            <ul>
+            <li><a href="index.html" target="_blank">home</a></li>
+            <li><a href="index.html#about" target="_blank">about</a></li>
+            <li><a href="index.html#menu" target="_blank">our menu</a></li>
+            <li><a href="store.html" target="_blank">store hours</a></li>
+        </ul>
+        </nav>
+        <figure>
+            <img src="tacos.jpeg" alt="image of a taco" width="250" height="106" title="taco  close up image">
+            <figcaption>
+                delicious taco
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <article id="contacts">
+                <h2>contact us</h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                    <legend>send us a message</legend>
+                    
+                     <p>   <label for="name">name:</label>
+                        <input type="text" id="name" name="name"  required placeholder="patrick amusivwa">
+                    </p>
+                    <p> <label for="email">email:</label>
+                        <input type="email" id="email" name="email" required autofocus>
+                    </p>
+                    <p>
+                        <label for="message">your message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="share your thoughts"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">submit</button>
+                        <button type="reset">reset</button>
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+                        
+                    </p>
+                    </fieldset>
+                </form>
+        </article>
+        <article id="location">
+            <h2>location</h2>
+         
+                <address>
+                    <strong>The Little Taco Shop</strong>
+                    <br>
+                    1234 Main St.
+                    <br>
+                    Anytown, CA 12345
+                </address>
+            
+        
+            <p>
+                <a href="tel:123-456-7890">123-456-7890</a>
+            </p>
+            <p>
+                <a href="mailto:amusivwapatrick@gmail.com">email us</a>
+            </p>
+            <p>
+                <a href="#">back to top</a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        copyright &copy;The Little Taco Shop
+
+    </footer>
+</body>
+</html>
